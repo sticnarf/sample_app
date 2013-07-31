@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  # gem 'sqlite3'
   gem 'rspec-rails'
 end
 
@@ -41,9 +41,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :production do
-  gem 'pg', '0.15.1'
-end
+gem 'pg', '0.16.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
